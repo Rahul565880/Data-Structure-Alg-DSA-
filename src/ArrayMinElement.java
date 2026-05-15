@@ -18,14 +18,6 @@ public class ArrayMinElement {
                 min = arr[i];
             }
         }
-        System.out.print("Arrays: [");
-        for(int i=0;i<size;i++){
-            System.out.print(arr[i]);
-            if(i<arr.length-1) {
-                System.out.print(", ");
-            }
-        }
-        System.out.println("]");
         System.out.println("Minimum value in array: " + min);
     }
 }
