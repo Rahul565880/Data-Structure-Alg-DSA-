@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayMaxElement {
@@ -18,14 +19,8 @@ public class ArrayMaxElement {
                 max = arr[i];
             }
         }
-        System.out.print("Arrays: [");
-        for(int i=0;i<size;i++){
-            System.out.print(arr[i]);
-            if(i<arr.length-1) {
-                System.out.print(", ");
-            }
-        }
-        System.out.println("]");
+        System.out.println(Arrays.toString(arr));
+
         System.out.println("Maximum value in array: " + max);
     }
 }
