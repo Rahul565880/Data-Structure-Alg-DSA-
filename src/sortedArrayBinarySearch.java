@@ -19,7 +19,6 @@ public class sortedArrayBinarySearch {
             System.out.println("Array is  not sorted cant be perfomed");
         }
     }
-
     public static boolean isSorted(int arr[]) {
         for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i] > arr[i + 1]) {
@@ -28,8 +27,7 @@ public class sortedArrayBinarySearch {
         }
         return true;
     }
-
-        public static int binarySearch ( int arr[], int key){
+    public static int binarySearch ( int arr[], int key){
             int left = 0;
             int right = arr.length - 1;
 
