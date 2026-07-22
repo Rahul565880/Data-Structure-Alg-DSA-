@@ -10,6 +10,8 @@ public class BubbleSort {
             for (int i=0; i<arr.length;i++) {
                 arr[i] = sc.nextInt();
             }
+
+
         System.out.println("unsorted array is to be" + Arrays.toString(arr));
         issortArray(arr);
         System.out.println("Sorted array is to be" + Arrays.toString(arr));
