@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SelectionSort {
@@ -27,10 +28,7 @@ public class SelectionSort {
             arr[minIndex] = temp;
         }
 
-        System.out.print("Sorted array ");
-        for(int x: arr){
-            System.out.print(x + " ");
+        System.out.println(Arrays.toString(arr));
         }
 
     }
-}
