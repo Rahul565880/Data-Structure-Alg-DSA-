@@ -18,7 +18,7 @@ public class sortingArray {
         int s = arr.length;
         for(int i=0;i<n-1;i++) {
             for(int j =i+1;j<n-1-i;j++){
-                if(arr[i] > arr[j]) {                   //if(arr[i] > arr[j]) { descending order
+                if(arr[i] > arr[j]) {                 //if(arr[i] > arr[j]) { descending order
                     int temp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = temp;
